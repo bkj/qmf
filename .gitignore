@@ -1,3 +1,6 @@
+_data/*
+_results/*
+
 .*
 !/.travis.yml
 !/.clang-format
