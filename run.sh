@@ -40,6 +40,6 @@ gunzip netflix.tsv.gz && mv netflix.tsv _data/netflix
 
 ./bin/wals \
     --train_dataset=_data/netflix/netflix.tsv \
-    --user_factors=_results/movielens/ml-1m-user \
-    --item_factors=_results/movielens/ml-1m-item \
+    --user_factors=_results/netflix/netflix-user \
+    --item_factors=_results/netflix/netflix-item \
     --nthreads=32 
